@@ -3,7 +3,7 @@
 import requests
 
 from newsapi import const
-from newsapi.auth-news import NewsApiAuth
+from newsapi.auth_news import NewsApiAuth
 from newsapi.newsapi_exception import NewsAPIException
 from newsapi.utils import (
     is_valid_string, is_valid_string_or_list, stringify_date_param
